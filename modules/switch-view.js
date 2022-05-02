@@ -1,4 +1,4 @@
-import Render from "./render.js";
+import Render from './render.js';
 
 export default class Switch {
   static switchView = (e) => {

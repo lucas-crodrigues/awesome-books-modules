@@ -1,4 +1,4 @@
-import Render from "./render.js";
+import Render from './render.js';
 
 let books = JSON.parse(localStorage.getItem('books')) || [];
 

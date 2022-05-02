@@ -1,6 +1,6 @@
-import AddDate from "./date.js";
-import UI from "../index.js";
-import BookCollection from "./book-collection.js";
+import AddDate from './date.js';
+import UI from '../index.js';
+import BookCollection from './book-collection.js';
 
 export default class Render {
   static renderBooks() {

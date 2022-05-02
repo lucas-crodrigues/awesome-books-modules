@@ -1,7 +1,7 @@
 {
   "name": "awesome-books-modules",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the Awesome Books ES6 project for the second week of the second module in the microverse program.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/lucas-crodrigues/awesome-books-modules/issues"
   },
-  "homepage": "https://github.com/lucas-crodrigues/awesome-books-modules#readme"
+  "homepage": "https://github.com/lucas-crodrigues/awesome-books-modules#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^6.1.12",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
 }
