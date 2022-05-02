@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+main {
+  width: 95%;
+  margin: 0.5rem auto;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+
+header {
+  width: 100%;
+}
+
+body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Patrick Hand', cursive;
+}
+
+body * {
+  font-family: inherit;
+  font-size: large;
+}
+
+button {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 26px;
+}
+
+#booksList {
+  width: 100%;
+}
+
+#books-container {
+  padding: 0.25rem;
+  margin: 2rem auto;
+  border: 2px solid black;
+  width: max-content;
+  max-width: 100%;
+  min-width: 50%;
+}
+
+#books-container :nth-child(even) {
+  background-color: beige;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem;
+  max-height: max-content;
+  align-items: center;
+  margin: 0.25rem auto;
+}
+
+.title {
+  padding-right: 1rem;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+.mainTitle {
+  width: 65%;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+#links {
+  font-weight: normal;
+  padding: 0.25rem;
+}
+
+#date {
+  padding: 1rem;
+  text-align: end;
+}
+
+.navButton {
+  border: none;
+  border-left: 1px solid black;
+  cursor: pointer;
+}
+
+.addBook {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  width: 40%;
+}
+
+input,
+#addBook button {
+  margin: 0.25rem;
+}
+
+.shadow {
+  box-shadow: 3px 3px 4px 0 #000;
+}
+
+#addLine {
+  width: 50%;
+  margin: 2px auto;
+  height: 1px;
+  color: black;
+  background: linear-gradient(90deg, rgba(203, 197, 197, 1) 6%, rgba(0, 0, 0, 1) 37%, rgba(184, 184, 184, 1) 92%);
+}
+
+.contactInfo {
+  margin: 1rem auto;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column;
+}
+
+input {
+  border: 1px solid black;
+}
+
+footer {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+.author {
+  width: 50%;
+  margin: 0.5rem auto;
+  font-style: italic;
+}
+
+main .hide {
+  display: none;
+}

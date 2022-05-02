@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css" />
+  <title>Awesome books</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 id="mainTitle">Awesome books</h1>
+      <div id="links">
+        <button type="button" class="navButton" id="navList">List</button>
+        <button type="button" class="navButton" id="navAdd">Add new</button>
+        <button type="button" class="navButton" id="navContact">Contact</button>
+      </div>
+    </nav>
+    <div id="date">Date</div>
+  </header>
+  <main>
+    <p id="message"></p>
+    <section id="booksList">
+      <h2>All Awesome Books</h2>
+      <div id="books-container">
+      </div>
+    </section>
+    <form id="addBook" class="addBook hide">
+      <div id="addLine"></div>
+      <h2>Add a new book</h2>
+      <input type="text" id="addTitle" placeholder="Title" required>
+      <input type="text" id="addAuthor" placeholder="Author" required>
+      <button type="submit" id="addButton" class="shadow">Add</button>
+    </form>
+    <div id="contactInfo" class="contactInfo hide">
+      <h2>Contact</h2>
+      <div>Do you have any questions or just want to say "Hello"? You can reach out!:</div>
+      <div class="author">
+        <p>Alvaro Ruiz</p>
+        <p>GitHub: <a href="https://github.com/alvarorf">@alvarorf</a></p>
+      </div>
+      <div class="author">
+        <p>Emmanuel Orji</p>
+        <p>GitHub: <a href="https://github.com/emmiiorji">@emmiiorji</a></p>
+      </div>
+      <div class="author">
+        <p>Lucas Costa Rodrigues</p>
+        <p>GitHub: <a href="https://github.com/lucas-crodrigues">@lucas-crodrigues</a></p>
+      </div>
+    </div>
+  </main>
+  <footer>Copyright</footer>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
