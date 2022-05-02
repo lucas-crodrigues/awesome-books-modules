@@ -4,8 +4,10 @@ main {
   width: 95%;
   margin: 0.5rem auto;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   align-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 header {
@@ -17,10 +19,11 @@ body {
   display: flex;
   flex-direction: column;
   width: 80%;
+  height: 100vh;
   margin: 0 auto;
   align-items: center;
   align-content: center;
-  justify-content: center;
+  justify-content: space-between;
   font-family: 'Patrick Hand', cursive;
 }
 
