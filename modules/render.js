@@ -8,9 +8,9 @@ export default class Render {
     const booksContainer = document.getElementById('books-container');
     booksContainer.innerHTML = this.markupAllBooks();
     if (booksContainer.innerHTML === '') {
-      booksList.classList.toggle('hide');
+      booksList.classList.add('hide');
       document.getElementById('message').innerHTML = 'Sorry, there are no registered books. Add a book below:';
-      addBook.classList.toggle('hide');
+      addBook.classList.remove('hide');
     } else {
       document.getElementById('message').innerHTML = '';
     }

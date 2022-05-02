@@ -13,13 +13,11 @@ export default class Switch {
         booksList.classList.add('hide');
         contactInfo.classList.remove('hide');
         addBook.classList.add('hide');
-        Render.renderBooks();
         break;
       case 'navAdd':
         booksList.classList.add('hide');
         contactInfo.classList.add('hide');
         addBook.classList.remove('hide');
-        Render.renderBooks();
         break;
       default:
         break;
