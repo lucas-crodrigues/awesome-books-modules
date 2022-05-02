@@ -1,5 +1,9 @@
 import Render from './render.js';
 
+const booksList = document.getElementById('booksList');
+const addBook = document.getElementById('addBook');
+const contactInfo = document.getElementById('contactInfo');
+
 export default class Switch {
   static switchView = (e) => {
     switch (e.target.id) {

@@ -2,6 +2,9 @@ import AddDate from './date.js';
 import UI from '../index.js';
 import BookCollection from './book-collection.js';
 
+const booksList = document.getElementById('booksList');
+const addBook = document.getElementById('addBook');
+
 export default class Render {
   static renderBooks() {
     AddDate.addDate();
