@@ -1,7 +1,10 @@
+import { DateTime } from "./luxon.js";
+
 export default class AddDate {
   static addDate = () => {
     const dateDiv = document.getElementById('date');
-    const date = Date().split(' ').splice(0, 5).join(' ');
+    const dateFormat = {...DateTime.DATETIME_MED, weekday: 'long' };
+    const date = DateTime.now().toLocaleString(dateFormat);
     dateDiv.textContent = date;
   };
 }
