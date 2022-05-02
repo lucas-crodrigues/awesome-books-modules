@@ -10,6 +10,7 @@ export default class UI {
     const removeButtons = Array.from(document.querySelectorAll('.book button'));
     removeButtons.forEach((button) => {
       button.addEventListener('click', BookCollection.removeBook);
+      button.addEventListener('click', Render.renderBooks);
     });
 
     const addBook = document.getElementById('navAdd');
@@ -17,6 +18,7 @@ export default class UI {
     const contactInfo = document.getElementById('navContact');
     addBook.addEventListener('click', (e) => Switch.switchView(e));
     booksList.addEventListener('click', (e) => Switch.switchView(e));
+    booksList.addEventListener('click', Render.renderBooks);
     contactInfo.addEventListener('click', (e) => Switch.switchView(e));
   }
 }

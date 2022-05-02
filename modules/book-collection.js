@@ -1,5 +1,3 @@
-import Render from './render.js';
-
 let books = JSON.parse(localStorage.getItem('books')) || [];
 
 export default class BookCollection {
@@ -25,7 +23,6 @@ export default class BookCollection {
     const bookIndex = Number(button.id.split('_')[1]);
     books = books.filter((book, index) => index !== bookIndex);
     localStorage.setItem('books', JSON.stringify(books));
-    Render.renderBooks();
     return books;
   }
 

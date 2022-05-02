@@ -1,5 +1,3 @@
-import Render from './render.js';
-
 const booksList = document.getElementById('booksList');
 const addBook = document.getElementById('addBook');
 const contactInfo = document.getElementById('contactInfo');
@@ -11,7 +9,6 @@ export default class Switch {
         booksList.classList.remove('hide');
         contactInfo.classList.add('hide');
         addBook.classList.add('hide');
-        Render.renderBooks();
         break;
       case 'navContact':
         booksList.classList.add('hide');
